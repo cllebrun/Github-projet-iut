@@ -92,7 +92,7 @@ Ici nous allons importer dans l'environment Node-RED la librairie "node-red-dash
 1. Dans l'ongle **Install** faites une recherche de la librairie **node-red-contrib-play-audio** puis cliquez sur **install**
 <img src="./images/image15.png"/>
 
-# Step 3 - Starter code
+# Etape 3 - Starter code
 
 Dans cette partie de l'exercice, vous allez importer du code source dans votre Ã©diteur Node-RED pour que vous disposiez d'un exemple de dashboard dans Node-RED.
 
@@ -103,7 +103,7 @@ Dans cette partie de l'exercice, vous allez importer du code source dans votre Ã
 
 Ce starter code vous servira de base pour le projet, il montre comment manipuler certains composants node-red dashboard par exemple.
 
-# Recommandations
+# Aide et Recommandations
 
 
 **Bien utiliser Node-RED**
