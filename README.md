@@ -29,47 +29,47 @@ Node-RED est open source mais ici vous utiliserez une version que vous pourrez f
 # Etape 1 - Nodered
 
 1. Connectez vous à https://cloud.ibm.com/login
-1. Naviguez dans le catalogue https://cloud.ibm.com/catalog
+2. Naviguez dans le catalogue https://cloud.ibm.com/catalog
 et choisissez **Software** depuis le menu à gauche. Recherchez "Node-RED App"
 
   <img src="./images/image1.png"/>
-  
-1. Sélectionnez l'onglet **Create**. Donnez un nom à votre application.
-1. Node-RED utilise une base de données Cloudant. Dans le menu déroulant **Pricing plan** , vous pouvez soit choisir d'utiliser un service Cloudant existant soit en créer un nouveau si vous n'en avez jamais instancié auparavant (vous n'avez le droit qu'à une seule instance avec un compte Lite)
+
+3. Sélectionnez l'onglet **Create**. Donnez un nom à votre application.
+4. Node-RED utilise une base de données Cloudant. Dans le menu déroulant **Pricing plan** , vous pouvez soit choisir d'utiliser un service Cloudant existant soit en créer un nouveau si vous n'en avez jamais instancié auparavant (vous n'avez le droit qu'à une seule instance avec un compte Lite)
 <img src="./images/image2.png"/>
 
-1. Cliquez **Create**
+5. Cliquez **Create**
 <img src="./images/image3.png"/>
 
-1. Il vous faut ensuite déployer cette application. Cliquez sur le bouton **Deploy your app**
+6. Il vous faut ensuite déployer cette application. Cliquez sur le bouton **Deploy your app**
 
-1. Choisissez l'option **Cloud Foundry** et générez une nouvelle clé d'API pour le déploiement.
+7. Choisissez l'option **Cloud Foundry** et générez une nouvelle clé d'API pour le déploiement.
 <img src="./images/image4.png"/>
 <img src="./images/image5.png"/>
 
-1. Cliquez **Next**
-1. Cliquez **Create**
+8. Cliquez **Next**
+9. Cliquez **Create**
 
-1. Pendant quelques minutes l'application se déploie en initialisant une chaîne DevOps (outils DevOps de développement pour gérer le Build and Deploy de l'application). Dans cet exercice, nous laisserons de côté cet aspect DevOps de l'application, mais il faut attendre que la chaîne soit activée.
+10. Pendant quelques minutes l'application se déploie en initialisant une chaîne DevOps (outils DevOps de développement pour gérer le Build and Deploy de l'application). Dans cet exercice, nous laisserons de côté cet aspect DevOps de l'application, mais il faut attendre que la chaîne soit activée.
 
-1. Notez que vous pouvez suivre le status de la création dans l'encart **Deployment automation** en cliquant sur **Status**
+11. Notez que vous pouvez suivre le status de la création dans l'encart **Deployment automation** en cliquant sur **Status**
 <img src="./images/image6.png"/>
 <img src="./images/image7.png"/>
 
-1. Quand l'application est déployée, cliquez sur le l'**App url** pour l'ouvrir:
+12. Quand l'application est déployée, cliquez sur le l'**App url** pour l'ouvrir:
 <img src="./images/image8.png"/>
 
-1. La première fois que vous accédez à votre application après avoir cliqué sur le bouton rouge "Go to your Node-Red editor", il vous est demandé de sécuriser votre application. Vous pouvez le faire en ajoutant un username et un password. Conservez ces informations.
+13. La première fois que vous accédez à votre application après avoir cliqué sur le bouton rouge "Go to your Node-Red editor", il vous est demandé de sécuriser votre application. Vous pouvez le faire en ajoutant un username et un password. Conservez ces informations.
 <img src="./images/image9.png"/>
 
-1. Cliquez **Next** et accédez à votre éditeur Node-RED.
+14. Cliquez **Next** et accédez à votre éditeur Node-RED.
 L'éditeur s'ouvre avec un flow par défaut:
 <img src="./images/image10.png"/>
 
-1. Pour tester ce flow, il vous suffit de cliquet sur le bouton à gauche du noeud bleu "Hello Node-RED!" et de visualiser le résultat dans la console de debug sur la droite.
+15. Pour tester ce flow, il vous suffit de cliquet sur le bouton à gauche du noeud bleu "Hello Node-RED!" et de visualiser le résultat dans la console de debug sur la droite.
 <img src="./images/image11.png"/>
 
-1. Vous l'avez compris, le noeud bleu de type "inject" sert de source de donnée et le noeud vert de type "debug" correspond à un traçage ou à un log dans votre code. N'hésitez pas à utiliser ce type de noeuds pour simuler des entrées de données et à tracer dans la console pour tester votre code.
+16. Vous l'avez compris, le noeud bleu de type "inject" sert de source de donnée et le noeud vert de type "debug" correspond à un traçage ou à un log dans votre code. N'hésitez pas à utiliser ce type de noeuds pour simuler des entrées de données et à tracer dans la console pour tester votre code.
 
 # Etape 2 - Librairie
 
@@ -81,16 +81,16 @@ Ici nous allons importer dans l'environment Node-RED la librairie "node-red-dash
 1. Depuis le menu, en haut à droite de votre éditeur Node-RED, choisissez **Manage palette**
 <img src="./images/image12.png"/>
 
-1. Dans l'ongle **Install** faites une recherche de la librairie **node-red-dashboard** puis cliquez sur **install**
+2. Dans l'ongle **Install** faites une recherche de la librairie **node-red-dashboard** puis cliquez sur **install**
 <img src="./images/image13.png"/>
 
-1. Une fois l'installation terminée, vous pouvez notez qu'une nouvelle famille de nodes a été installées dans la boite à outils à gauche de votre éditeur:
+3. Une fois l'installation terminée, vous pouvez notez qu'une nouvelle famille de nodes a été installées dans la boite à outils à gauche de votre éditeur:
 <img src="./images/image14.png"/>
 
   Vous allez aussi ajouter la librairie **play-audio** qui vous permettra de jouer du son dans votre navigateur.
-1. Depuis le menu, en haut à droite de votre éditeur Node-RED, choisissez **Manage palette**
+4. Depuis le menu, en haut à droite de votre éditeur Node-RED, choisissez **Manage palette**
 
-1. Dans l'ongle **Install** faites une recherche de la librairie **node-red-contrib-play-audio** puis cliquez sur **install**
+5. Dans l'ongle **Install** faites une recherche de la librairie **node-red-contrib-play-audio** puis cliquez sur **install**
 <img src="./images/image15.png"/>
 
 # Etape 3 - Starter code
