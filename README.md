@@ -31,7 +31,7 @@ Node-RED est open source mais ici vous utiliserez une version que vous pourrez f
 1. Connectez vous à https://cloud.ibm.com/login
 1. Naviguez dans le catalogue https://cloud.ibm.com/catalog
 et choisissez **Software** depuis le menu à gauche. Recherchez "Node-RED App"
-<img src="./images/image1.png"/>
+  <img src="./images/image1.png"/>
 
 1. Sélectionnez l'onglet **Create**. Donnez un nom à votre application.
 1. Node-RED utilise une base de données Cloudant. Dans le menu déroulant **Pricing plan** , vous pouvez soit choisir d'utiliser un service Cloudant existant soit en créer un nouveau si vous n'en avez jamais instancié auparavant (vous n'avez le droit qu'à une seule instance avec un compte Lite)
