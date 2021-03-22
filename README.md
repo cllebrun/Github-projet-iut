@@ -29,7 +29,7 @@ Node-RED est open source mais ici vous utiliserez une version que vous pourrez f
 # Etape 1 - Nodered
 
 1. Connectez vous à https://cloud.ibm.com/login
-1. Navigugez dans le catalogue https://cloud.ibm.com/catalog
+1. Naviguez dans le catalogue https://cloud.ibm.com/catalog
 et choisissez **Software** depuis le menu à gauche. Recherchez "Node-RED App"
 <img src="./images/image1.png"/>
 
@@ -75,7 +75,7 @@ L'éditeur s'ouvre avec un flow par défaut:
 Dans cette partie de l'exercice, vous allez apprendre à importer de nouvelles librairies sous Node-RED (librairies NPM).
 Pour le projet, vous pourriez avoir besoin par exemple de créer une interface graphique représentant certaines données.
 
-Ici nous allons importer dans l'environment Node-RED la librairie "node-red-dashboard". Cette librairie permet de creer des dashboards avec des graphiques, du text, des images etc ...
+Ici nous allons importer dans l'environment Node-RED la librairie "node-red-dashboard". Cette librairie permet de créer des dashboards avec des graphiques, du text, des images etc ...
 
 1. Depuis le menu, en haut à droite de votre éditeur Node-RED, choisissez **Manage palette**
 <img src="./images/image12.png"/>
@@ -111,5 +111,5 @@ Ce starter code vous servira de base pour le projet, il montre comment manipuler
 1. Utilisez les noeuds "Inject" et "Debug"
 1. Utilisez l'onglet "Info" quand vous sélectionnez un noeuds pour savoir comment il fonctionne (entrée, sortie, paramètres..)
 1. L'onglet Dashboard vous permet de personaliser votre UI et de compartimenter les onglets de votre page web
-1. N'hésitez pas à utiliser d'autres noeuds de la boite à outils  ou importer des librairies (attention c'est de l'open source, lisez bien la doc avant). Vous pouvez aussi importer des flows xistants, disponible dans la librairie.
-1. Librairies nodered: https://flows.nodered.org/
+1. N'hésitez pas à utiliser d'autres noeuds de la boite à outils  ou importer des librairies (attention c'est de l'open source, lisez bien la doc avant). Vous pouvez aussi importer des flows existants, disponibles dans la librairie.
+1. Librairies node-red: https://flows.nodered.org/
